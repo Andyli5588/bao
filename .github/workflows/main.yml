@@ -21,4 +21,7 @@ jobs:
         env:
           ACCOUNT: ${{ secrets.ACCOUNT }}
           PASSWORD: ${{ secrets.PASSWORD }}
+           ACCOUNT1: ${{ secrets.ACCOUNT1 }}
+          PASSWORD1: ${{ secrets.PASSWORD1 }}
+       
         run: python ./main.py
